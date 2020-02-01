@@ -1,5 +1,14 @@
 
 
-# Cache files
+# Ignore Node.js files
+node_modules/
+package-lock.json
+
+# Ignore compiled and temporary files
+*.pyc
+*.pyo
+.swp
+.swo
 .*.swp
 .*.swo
+
