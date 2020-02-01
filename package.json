@@ -1,0 +1,42 @@
+{
+  "name": "antimatter-dimensions",
+  "version": "1.0.0",
+  "description": "Antimatter Dimensions fork from IvarK.github.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kaedenn/IvarK.github.io.git"
+  },
+  "author": "Hevipelle",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/Kaedenn/IvarK.github.io/issues"
+  },
+  "homepage": "https://github.com/Kaedenn/IvarK.github.io#readme",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-preset-minify": "^0.5.0",
+    "eslint": "^5.16.0"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "es6": true,
+      "jquery": true
+    }
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "babel": {
+    "presets": [
+      "babel-preset-env",
+      "babel-preset-minify"
+    ]
+  }
+}
